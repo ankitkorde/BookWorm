@@ -1,0 +1,23 @@
+.carousel-container {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .carousel-item {
+    margin: 10px auto;
+    max-width: 90%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+    text-align: center; /* Center the image */
+  }
+  
+  .carousel-image {
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    transform: scale(0.5); /* Scale the image to 50% */
+    transform-origin: center; /* Set the scaling origin to the center */
+  }
+  

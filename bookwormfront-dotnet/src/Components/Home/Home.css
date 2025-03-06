@@ -1,0 +1,317 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer */
+}
+
+/* Page Styling */
+.homepage {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9fafb;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+.hero-image {
+  width: 30%; /* Adjust the width as needed */
+  height: auto;
+  max-width: 450px; /* Optional: set a maximum width */
+  opacity: 0; /* Start with the image hidden */
+  animation: fadeIn 3s forwards; /* Apply the fade-in animation */
+  transform: translateY(-20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.hero-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  transition-delay: 0.5s; /* Add delay to the text animation */
+}
+
+.fade-down {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  text-align: center;
+  padding: 8vh 5vw;
+  background: linear-gradient(135deg, #774dd3, #5e3cb1);
+  color: white;
+  border-radius: 0 0 30px 30px;
+  margin-bottom: 40px; /* Add margin to separate from the next section */
+}
+
+.hero-section h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hero-section .cta {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  font-weight: 500;
+}
+
+.hero-section .cta::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-section .cta:hover::after {
+  transform: scaleX(1);
+}
+
+/* Categories Section */
+.categories-section {
+  width: 100%;
+  padding: 40px 5vw;
+  text-align: center;
+  margin-bottom: 40px; /* Add margin to separate from the next section */
+}
+
+.categories-section .category {
+  display: inline-block;
+  font-size: 1.1rem;
+  margin: 10px;
+  color: #774dd3;
+  cursor: pointer;
+  position: relative;
+  font-weight: 500;
+}
+
+.categories-section .category::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #774dd3;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.categories-section .category:hover::after {
+  transform: scaleX(1);
+}
+
+/* Carousel */
+.carousel {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  margin-top: 40px;
+  min-height: 400px; 
+  margin-bottom: 40px; 
+}
+
+/* About Us Section */
+.about-us-section {
+  width: 100%;
+  padding: 40px 5vw;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin-bottom: 40px; /* Add margin to separate from the next section */
+}
+
+.about-us-section .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.about-us-section .pic {
+  width: 80%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add margin to separate elements */
+}
+
+.about-us-section .text {
+  width: 100%;
+  max-width: 540px;
+  text-align: center; /* Center text for vertical layout */
+  padding: 20px;
+}
+
+.about-us-section .text h2 {
+  color: #1e293b;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about-us-section .text h5 {
+  color: #64748b;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.about-us-section span {
+  color: #774dd3;
+  font-weight: bold;
+}
+
+.about-us-section .text p {
+  color: #495057;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+.about-us-section .data {
+  margin-top: 30px;
+}
+
+.about-us-section .explore {
+  font-size: 18px;
+  background: #774dd3;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  transition: 0.4s;
+  display: inline-block;
+}
+
+.about-us-section .explore:hover {
+  background: #5a3cb5;
+}
+
+/* Popular Books */
+.popular-books-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  min-height: 420px; 
+  width: 100%;
+}
+
+/* Responsive Grid for Books */
+/* .book-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+} */
+
+.authors-section .MuiCard-root:hover {
+  transform: scale(1.05);
+}
+
+.book-card {
+  width: 100%;
+  max-width: fit-content;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Allow up to 3 lines */
+  -webkit-box-orient: vertical;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-section h3 {
+    font-size: 2rem;
+  }
+
+  .categories-section,
+  .carousel,
+  .about-us-section {
+    padding: 30px 3vw;
+  }
+
+  .book-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) { 
+  .book-grid {
+    grid-template-columns: repeat(1, 1fr); /* Show 1 book per row on mobile */
+  }
+
+  .about-us-section .text h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-us-section .text h5 {
+    font-size: 1.5rem;
+  }
+
+  .about-us-section .text p {
+    font-size: 1rem;
+  }
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

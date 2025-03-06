@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eafbff;
+  /* background-image: linear-gradient(
+    to bottom,
+    #eafbff 0%,
+    #eafbff 50%,
+    #5290f9 50%,
+    #5290f9 100%
+  ); */
+  font-family: 'Muli', sans-serif;
+  display: 90%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+
+/* Navbar Styles */
+.navbar-container {
+    display: flex;
+    width: 100%;
+    height: 60px; /* Ensuring navbar has a fixed height */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5290f9;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-container .nav-link {
+  color: #000;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.search-input {
+  padding: 8px;
+  border: 2px solid #5290f9;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.search-button {
+  background-color: #5290f9;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-btn {
+  background-color: #fff;
+  border: 2px solid #5290f9;
+  color: #5290f9;
+  padding: 8px 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background-color: #ea4e3d;
+  border-color: #ea4e3d;
+  color: white;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #774dd3;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Carousel Section */
+.carousel {
+  width: 90%;
+  margin: 20px auto;
+}
+
+/* About Us Section */
+.about-us-section {
+  width: 90%;
+  margin: 40px auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .search-container {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-input {
+    width: 80%;
+  }
+
+  .search-button {
+    padding: 6px 10px;
+  }
+
+  .nav-btn {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+
+  .hero-image {
+    max-width: 100%;
+  }
+
+  .carousel, .about-us-section {
+    width: 100%;
+  }
+}
+
+.user-icon {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.user-icon:hover {
+    color: #7d6df8;
+}
+
+.page-content {
+    padding-top: 80px; /* At least 20px extra space below navbar */
+}

@@ -1,0 +1,982 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\CartDetailsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CartDetailsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\FilteredProductsDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\FilteredProductsDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\LanguageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\LanguageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\GenreController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\GenreController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\AttributeMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\AttributeMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\LanguageMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\LanguageMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\CustomerMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\CustomerMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\InvoiceRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\InvoiceRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\CartDetailsRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\CartDetailsRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\CartMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\CartMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\CartDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\CartDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\BeneficiaryMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\BeneficiaryMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Repository\\BookWormDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repository\\BookWormDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\LoginController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\LoginController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\RoyaltyCalculationServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\RoyaltyCalculationServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\AppSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CustomerServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\CustomerServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\Error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\OtpServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\OtpServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\CustomerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\CustomerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\ProductServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\ProductServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\ProductMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\ProductMaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\OtpController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\OtpController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\EmailServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\EmailServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IOtpService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IOtpService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\InvoiceController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\InvoiceController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CartDetailsServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\CartDetailsServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CartServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\CartServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\Invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\InvoiceServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\InvoiceServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\InvoiceDetailsServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\InvoiceDetailsServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IRoyaltyCalculationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IRoyaltyCalculationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IInvoiceDetailsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IInvoiceDetailsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IInvoiceService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IInvoiceService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IShelfDetailsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IShelfDetailsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IMyShelfService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IMyShelfService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\InvoiceDetailsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\InvoiceDetailsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\RoyaltyCalculationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\RoyaltyCalculationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\ProductBeneficiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\ProductBeneficiary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\MyShelfDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\MyShelfDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\ICartDetailsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ICartDetailsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\InvoiceDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\InvoiceDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\ICartService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ICartService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\ShelfDetailsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ShelfDetailsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\DatabaseLogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\DatabaseLogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CheckOutService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\CheckOutService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\MyShelfServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\MyShelfServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\MySelfRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\MySelfRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\ShelfDetailsServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServicesImpl\\ShelfDetailsServiceImpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\LoginRequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\LoginRequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\ProductTypeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ProductTypeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\MyShelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\MyShelf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LanguageMaster.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\LanguageMaster.cs",
+              "RelativeDocumentMoniker": "Models\\LanguageMaster.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\LanguageMaster.cs",
+              "RelativeToolTip": "Models\\LanguageMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T10:51:21.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABcAAAAANDMzMzMbwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:16:14.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttributeMaster.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\AttributeMaster.cs",
+              "RelativeDocumentMoniker": "Models\\AttributeMaster.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\AttributeMaster.cs",
+              "RelativeToolTip": "Models\\AttributeMaster.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:34:43.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartDetail.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\CartDetail.cs",
+              "RelativeDocumentMoniker": "Models\\CartDetail.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\CartDetail.cs",
+              "RelativeToolTip": "Models\\CartDetail.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T09:10:46.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartMaster.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\CartMaster.cs",
+              "RelativeDocumentMoniker": "Models\\CartMaster.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\CartMaster.cs",
+              "RelativeToolTip": "Models\\CartMaster.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T09:10:24.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FilteredProductsDTO.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\FilteredProductsDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\FilteredProductsDTO.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\FilteredProductsDTO.cs",
+              "RelativeToolTip": "DTOs\\FilteredProductsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T06:30:12.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartDetailsController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\CartDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartDetailsController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\CartDetailsController.cs",
+              "RelativeToolTip": "Controllers\\CartDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T08:46:20.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LanguageController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\LanguageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LanguageController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\LanguageController.cs",
+              "RelativeToolTip": "Controllers\\LanguageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T10:59:12.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GenreController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "Controllers\\GenreController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T10:58:25.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerMaster.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\CustomerMaster.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerMaster.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\CustomerMaster.cs",
+              "RelativeToolTip": "Models\\CustomerMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:19:59.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartDetailsRequest.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\CartDetailsRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\CartDetailsRequest.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\CartDetailsRequest.cs",
+              "RelativeToolTip": "DTOs\\CartDetailsRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T09:00:55.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BeneficiaryMaster.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\BeneficiaryMaster.cs",
+              "RelativeDocumentMoniker": "Models\\BeneficiaryMaster.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\BeneficiaryMaster.cs",
+              "RelativeToolTip": "Models\\BeneficiaryMaster.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:34:50.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InvoiceRequestDTO.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\InvoiceRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\InvoiceRequestDTO.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\InvoiceRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\InvoiceRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:48:50.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookWormDbContext.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Repository\\BookWormDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\BookWormDbContext.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Repository\\BookWormDbContext.cs",
+              "RelativeToolTip": "Repository\\BookWormDbContext.cs",
+              "ViewState": "AgIAAHMAAAAAZ2ZmZmYkwCIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T10:11:05.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-23T05:33:03.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-14T09:03:23.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:51:17.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\JwtService.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\JwtService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\JwtService.cs",
+              "RelativeToolTip": "ServicesImpl\\JwtService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwDMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:07:02.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CustomerServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\CustomerServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CustomerServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\CustomerServiceImpl.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAwEUAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T00:31:11.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\AppSettings.cs",
+              "RelativeDocumentMoniker": "AppSettings.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\AppSettings.cs",
+              "RelativeToolTip": "AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:34:25.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RoyaltyCalculationServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\RoyaltyCalculationServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\RoyaltyCalculationServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\RoyaltyCalculationServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\RoyaltyCalculationServiceImpl.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAIBJwFwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:27:36.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Error.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\Error.cs",
+              "RelativeDocumentMoniker": "Models\\Error.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\Error.cs",
+              "RelativeToolTip": "Models\\Error.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:47:26.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OtpServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\OtpServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\OtpServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\OtpServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\OtpServiceImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T05:25:10.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T08:58:47.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wCoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:18:38.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\ProductServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\ProductServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\ProductServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\ProductServiceImpl.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAIwHcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:19:52.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductMaster.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\ProductMaster.cs",
+              "RelativeDocumentMoniker": "Models\\ProductMaster.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\ProductMaster.cs",
+              "RelativeToolTip": "Models\\ProductMaster.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:19:24.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OtpController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\OtpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OtpController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\OtpController.cs",
+              "RelativeToolTip": "Controllers\\OtpController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T05:24:33.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\IEmailService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IEmailService.cs",
+              "RelativeToolTip": "Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T05:24:50.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmailServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\EmailServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\EmailServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\EmailServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\EmailServiceImpl.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T05:24:54.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IOtpService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IOtpService.cs",
+              "RelativeDocumentMoniker": "Services\\IOtpService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IOtpService.cs",
+              "RelativeToolTip": "Services\\IOtpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T05:25:02.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoiceController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:47:01.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CartDetailsServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CartDetailsServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\CartDetailsServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CartDetailsServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\CartDetailsServiceImpl.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwDoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T09:28:30.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CartServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CartServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\CartServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CartServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\CartServiceImpl.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAADwv1QAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T08:45:18.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "Models\\Invoice.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\Invoice.cs",
+              "RelativeToolTip": "Models\\Invoice.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T09:10:16.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InvoiceServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\InvoiceServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\InvoiceServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\InvoiceServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\InvoiceServiceImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:07:31.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InvoiceDetailsServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\InvoiceDetailsServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\InvoiceDetailsServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\InvoiceDetailsServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\InvoiceDetailsServiceImpl.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswDkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:11:36.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IRoyaltyCalculationService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IRoyaltyCalculationService.cs",
+              "RelativeDocumentMoniker": "Services\\IRoyaltyCalculationService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IRoyaltyCalculationService.cs",
+              "RelativeToolTip": "Services\\IRoyaltyCalculationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:26:53.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IInvoiceDetailsService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IInvoiceDetailsService.cs",
+              "RelativeDocumentMoniker": "Services\\IInvoiceDetailsService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IInvoiceDetailsService.cs",
+              "RelativeToolTip": "Services\\IInvoiceDetailsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:09:15.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IInvoiceService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IInvoiceService.cs",
+              "RelativeDocumentMoniker": "Services\\IInvoiceService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IInvoiceService.cs",
+              "RelativeToolTip": "Services\\IInvoiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBVwA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:06:58.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IShelfDetailsService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IShelfDetailsService.cs",
+              "RelativeDocumentMoniker": "Services\\IShelfDetailsService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IShelfDetailsService.cs",
+              "RelativeToolTip": "Services\\IShelfDetailsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:17:26.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IMyShelfService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IMyShelfService.cs",
+              "RelativeDocumentMoniker": "Services\\IMyShelfService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IMyShelfService.cs",
+              "RelativeToolTip": "Services\\IMyShelfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:06:25.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "InvoiceDetailsController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\InvoiceDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InvoiceDetailsController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\InvoiceDetailsController.cs",
+              "RelativeToolTip": "Controllers\\InvoiceDetailsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwCsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:42:43.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RoyaltyCalculationController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\RoyaltyCalculationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoyaltyCalculationController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\RoyaltyCalculationController.cs",
+              "RelativeToolTip": "Controllers\\RoyaltyCalculationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:37:37.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ProductBeneficiary.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\ProductBeneficiary.cs",
+              "RelativeDocumentMoniker": "Models\\ProductBeneficiary.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\ProductBeneficiary.cs",
+              "RelativeToolTip": "Models\\ProductBeneficiary.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:29:53.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MyShelfDetail.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\MyShelfDetail.cs",
+              "RelativeDocumentMoniker": "Models\\MyShelfDetail.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\MyShelfDetail.cs",
+              "RelativeToolTip": "Models\\MyShelfDetail.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:09:33.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ICartDetailsService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\ICartDetailsService.cs",
+              "RelativeDocumentMoniker": "Services\\ICartDetailsService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\ICartDetailsService.cs",
+              "RelativeToolTip": "Services\\ICartDetailsService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T09:30:46.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "InvoiceDetail.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\InvoiceDetail.cs",
+              "RelativeDocumentMoniker": "Models\\InvoiceDetail.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\InvoiceDetail.cs",
+              "RelativeToolTip": "Models\\InvoiceDetail.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T06:23:04.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\ICartService.cs",
+              "RelativeDocumentMoniker": "Services\\ICartService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\ICartService.cs",
+              "RelativeToolTip": "Services\\ICartService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIA1wAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T08:45:15.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ShelfDetailsController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\ShelfDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShelfDetailsController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\ShelfDetailsController.cs",
+              "RelativeToolTip": "Controllers\\ShelfDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:36:57.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DatabaseLogger.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\DatabaseLogger.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\DatabaseLogger.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\DatabaseLogger.cs",
+              "RelativeToolTip": "ServicesImpl\\DatabaseLogger.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:59:21.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CheckOutService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CheckOutService.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\CheckOutService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\CheckOutService.cs",
+              "RelativeToolTip": "ServicesImpl\\CheckOutService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T09:13:32.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MyShelfServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\MyShelfServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\MyShelfServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\MyShelfServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\MyShelfServiceImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:38:49.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "MySelfRequestDTO.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\MySelfRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\MySelfRequestDTO.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\MySelfRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\MySelfRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T08:20:41.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ShelfDetailsServiceImpl.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\ShelfDetailsServiceImpl.cs",
+              "RelativeDocumentMoniker": "ServicesImpl\\ShelfDetailsServiceImpl.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\ServicesImpl\\ShelfDetailsServiceImpl.cs",
+              "RelativeToolTip": "ServicesImpl\\ShelfDetailsServiceImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:18:36.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "Services\\IProductService.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Services\\IProductService.cs",
+              "RelativeToolTip": "Services\\IProductService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T14:39:37.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "LoginRequests.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\LoginRequests.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginRequests.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\DTOs\\LoginRequests.cs",
+              "RelativeToolTip": "DTOs\\LoginRequests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:51:25.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ProductTypeController.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\ProductTypeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductTypeController.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Controllers\\ProductTypeController.cs",
+              "RelativeToolTip": "Controllers\\ProductTypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T11:19:59.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "MyShelf.cs",
+              "DocumentMoniker": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\MyShelf.cs",
+              "RelativeDocumentMoniker": "Models\\MyShelf.cs",
+              "ToolTip": "G:\\BookWormProject\\BookWorm\\BookWorm-Dotnet\\Models\\MyShelf.cs",
+              "RelativeToolTip": "Models\\MyShelf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T09:10:18.908Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

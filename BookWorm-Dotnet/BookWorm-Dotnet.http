@@ -1,0 +1,6 @@
+@BookWorm_Dotnet_HostAddress = http://localhost:5160
+
+GET {{BookWorm_Dotnet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
